@@ -1,12 +1,12 @@
 'use strict';
 
-const particleCount = 700;
-const particlePropCount = 9;
+const particleCount = 800;
+const particlePropCount = 11;
 const particlePropsLength = particleCount * particlePropCount;
 const rangeY = 100;
 const baseTTL = 50;
 const rangeTTL = 150;
-const baseSpeed = 0.1;
+const baseSpeed = 0.25;
 const rangeSpeed = 2;
 const baseRadius = 1;
 const rangeRadius = 4;
@@ -16,7 +16,7 @@ const noiseSteps = 8;
 const xOff = 0.00125;
 const yOff = 0.00125;
 const zOff = 0.0005;
-const backgroundColor = 'hsla(260,40%,5%,1)';
+const backgroundColor = 'hsl(172, 99%, 48%)';
 
 let container;
 let canvas;
